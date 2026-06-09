@@ -17,7 +17,7 @@
 
 ---
 
-## `$ whoami`
+## `QUEM SOU`
 
 ```python
 class SamaraAlmeida:
