@@ -1,407 +1,273 @@
 <div align="center">
 
-<!-- CABEÇALHO -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Samara%20Almeida&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Engenharia%20Química%20%E2%80%A2%20Computação%20Científica%20%E2%80%A2%20IA%20Industrial&descAlignY=58&descSize=18" />
-
-<!-- ANIMAÇÃO DE TEXTO -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=1000&color=00FF88&center=true&vCenter=true&width=950&lines=⚗️+Engenheira+de+Simulação+de+Processos+Químicos;🧬+Criadora+do+LabStraw+—+Simulador+Industrial+de+Nova+Geração;🔬+Unindo+Termodinâmica+%2B+Computação+Científica;⚛️+Algoritmos+Numéricos+%7C+EOS+%7C+Solvers+DAE;🖥️+Transformando+Equações+Diferenciais+em+Software+de+Produção" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:060d1f,40:0a1a35,100:071428&height=260&section=header&text=Samara%20Almeida&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Engenheira%20Qu%C3%ADmica%20%E2%80%A2%20Computa%C3%A7%C3%A3o%20Cient%C3%ADfica%20%E2%80%A2%20IA%20Industrial&descAlignY=63&descSize=21&descColor=7ecfff" />
 
 <br/>
 
-[![Foco](https://img.shields.io/badge/Foco-Simulação_Industrial-00FF88?style=for-the-badge&logo=atom&logoColor=white)](#)
-[![Stack](https://img.shields.io/badge/Stack-Python_•_TypeScript_•_Rust-00D4FF?style=for-the-badge&logo=stackshare&logoColor=white)](#)
-[![Status](https://img.shields.io/badge/Status-Construindo_o_LabStraw-FF6B35?style=for-the-badge&logo=rocket&logoColor=white)](#)
-[![Nível](https://img.shields.io/badge/Nível-Intermediário_→_Avançado-9B59B6?style=for-the-badge&logo=graduationcap&logoColor=white)](#)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3200&pause=900&color=7ECFFF&center=true&vCenter=true&width=980&lines=Engenheira+Qu%C3%ADmica+%2B+Desenvolvedora+de+Software;Simula%C3%A7%C3%A3o+de+Processos+%7C+Termodin%C3%A2mica+Computacional;M%C3%A9todos+Num%C3%A9ricos+%7C+EOS+%7C+Flash+VLE+Multicomponente;Fundadora+do+LabStraw+—+simulador+open-source;Pernambuco%2C+Brasil+→+construindo+para+o+mundo+🌍" />
+</p>
+
+<br/>
+
+<p align="center">
+  <a href="mailto:samarasantosalmeida2005@gmail.com">
+    <img height="38" src="https://img.shields.io/badge/Gmail-samarasantosalmeida2005-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/samara-almeida-15a334415">
+    <img height="38" src="https://img.shields.io/badge/LinkedIn-Samara%20Almeida-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/0Sams0">
+    <img height="38" src="https://img.shields.io/badge/GitHub-0Sams0-24292F?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://precious-cat-production-240f.up.railway.app/">
+    <img height="38" src="https://img.shields.io/badge/LabStraw-Demo%20ao%20Vivo-FF6B35?style=for-the-badge&logo=rocket&logoColor=white"/>
+  </a>
+</p>
+
+<br/>
 
 </div>
 
 ---
 
-## `QUEM SOU`
+## 👩‍🔬 Quem sou
 
-```python
-class SamaraAlmeida:
-    cargo        = "Estudante de Engenharia Química & Cientista Computacional"
-    localização  = "Pernambuco, Brasil 🇧🇷"
-    experiência  = "1–2 anos de programação — crescendo rápido em computação científica"
+Sou estudante de **Engenharia Química** em Pernambuco, Brasil, com 1–2 anos de experiência em programação científica — e crescendo rapidamente. Meu interesse está na interseção entre **termodinâmica aplicada, algoritmos numéricos e software de engenharia de processos**.
 
-    projeto_principal = "LabStraw — Plataforma de Simulação de Processos Industriais"
-    site              = "https://precious-cat-production-240f.up.railway.app/"
+Aprendo melhor construindo coisas reais. Foi por isso que fundei o **LabStraw** — um simulador de processos industriais baseado na web, desenvolvido do zero com Python e React/TypeScript. O projeto me levou a implementar equações de estado desde os primeiros princípios, depurar solvers que convergem para respostas fisicamente incorretas, e conectar física real a interfaces que engenheiros realmente querem usar.
 
-    forças_técnicas = [
-        "Python científico: NumPy, SciPy, implementação de EOS e solvers numéricos",
-        "TypeScript/React: arquitetura de estado com Zustand, canvas interativo com ReactFlow",
-        "Algoritmos numéricos: Newton-Raphson, RK4, Rachford-Rice, Tarjan SCC",
-        "Termodinâmica aplicada: SRK, Peng-Robinson, flash TP/PH/PS, equilíbrio VLE",
-        "Web: HTML5, CSS3, JavaScript — base sólida de frontend moderno",
-    ]
+Tenho experiência prática em **termodinâmica computacional** (SRK-EOS, Peng-Robinson, flash VLE multicomponente), **métodos numéricos** (Newton-Raphson, RK4, BDF, Rachford-Rice, Tarjan SCC), e **desenvolvimento full-stack** orientado a domínios científicos. Construo tanto o motor de cálculo quanto a interface que o engenheiro vê na tela.
 
-    atualmente_estudando = [
-        "Solvers de Equações Diferenciais Algébricas (DAE/EDA) para simulação dinâmica",
-        "Métodos de continuação e homotopia para convergência robusta",
-        "Arquitetura de solvers equation-oriented (EO) com Jacobiano esparso",
-        "Physics-Informed Neural Networks (PINN) para modelos substitutos",
-    ]
-
-    focos_além_do_labstraw = [
-        "Pesquisa acadêmica: algoritmos numéricos e métodos termodinâmicos",
-        "Otimização e análise de algoritmos: complexidade, convergência, robustez",
-        "Desenvolvimento de simuladores industriais similares ao LabStraw",
-    ]
-
-    objetivo = "Criar ferramentas open-source que superem o Aspen Plus em acessibilidade"
-```
+Meu objetivo não é apenas usar ferramentas — é entender por que elas funcionam, quando falham, e como construir algo melhor.
 
 > *"A melhor simulação é aquela que um engenheiro real consegue usar em produção — e que um estudante consegue entender e melhorar."*
 
 ---
 
-## 📊 Perfil Técnico Detalhado
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         MAPA DE COMPETÊNCIAS                                │
-├─────────────────────────┬───────────────────────────────────────────────────┤
-│  LINGUAGEM              │  NÍVEL E CONTEXTO DE USO                          │
-├─────────────────────────┼───────────────────────────────────────────────────┤
-│  Python                 │  ████████░░  Sólido — implemento EOS, solvers     │
-│                         │  numéricos, integração RK4/BDF, otimização        │
-│                         │  scipy-based, análise termodinâmica de processo   │
-├─────────────────────────┼───────────────────────────────────────────────────┤
-│  TypeScript / React     │  ███████░░░  Sólido — canvas interativo ReactFlow │
-│                         │  estado global Zustand, tabelas de propriedades,  │
-│                         │  módulo econômico CAPEX/OPEX/VPL/TIR              │
-├─────────────────────────┼───────────────────────────────────────────────────┤
-│  HTML5 / CSS3 / JS      │  ███████░░░  Sólido — base de todo o frontend do  │
-│                         │  LabStraw: layouts responsivos, animações CSS,    │
-│                         │  DOM manipulation, Vite bundler, Web APIs         │
-├─────────────────────────┼───────────────────────────────────────────────────┤
-│  Rust                   │  ███░░░░░░░  Aprendendo — planejado para o        │
-│                         │  núcleo de solver de alta performance do LabStraw │
-├─────────────────────────┼───────────────────────────────────────────────────┤
-│  C / C++                │  ██░░░░░░░░  Base — sintaxe, ponteiros, structs   │
-├─────────────────────────┼───────────────────────────────────────────────────┤
-│  Java / C# / Go         │  ██░░░░░░░░  Conhecimento básico, uso pontual     │
-└─────────────────────────┴───────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    O QUE SEI FAZER DE VERDADE (com código)                  │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  ✅ Implementar equações de estado (SRK, Peng-Robinson) do zero             │
-│     → coeficientes de fugacidade, raízes cúbicas, regras de mistura         │
-│                                                                             │
-│  ✅ Resolver flash TP/PH/PS com Rachford-Rice e Newton-Raphson              │
-│     → equilíbrio líquido-vapor por componente, iteração interna K-values    │
-│                                                                             │
-│  ✅ Integrar ODEs com RK4 para reatores PFR e batelada                      │
-│     → perfis de concentração e temperatura ao longo do comprimento          │
-│                                                                             │
-│  ✅ Detectar e resolver reciclos com algoritmo de Tarjan (SCC)              │
-│     → tear streams, convergência por substituição sucessiva                  │
-│                                                                             │
-│  ✅ Construir canvas interativo de fluxograma com ReactFlow + Zustand        │
-│     → slices de estado independentes, propagação de resultados em tempo real │
-│                                                                             │
-│  ✅ Análise econômica de processos: CAPEX/OPEX, VPL, TIR, payback           │
-│     → módulo integrado ao fluxograma com sensibilidade paramétrica           │
-│                                                                             │
-│  ✅ Frontend moderno com HTML5 + CSS3 + JavaScript                           │
-│     → interfaces responsivas, WebSocket real-time, Vite + TailwindCSS       │
-│                                                                             │
-│  🔄 Solver MESH para destilação multicomponente (em depuração ativa)        │
-│     → bug identificado: K-values desacoplados do EOS nas iterações internas  │
-│                                                                             │
-│  🔄 Integrador BDF para equações diferenciais algébricas (DAE)              │
-│     → estrutura funcional, conexão com simulação dinâmica em desenvolvimento │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🏭 LabStraw — Projeto Principal
-
-> 🔗 **Deploy em produção:** [precious-cat-production-240f.up.railway.app](https://precious-cat-production-240f.up.railway.app/) · 🔒 **Código-fonte privado** (confidencial)
+## 🧠 O que sei fazer de verdade
 
 <div align="center">
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                        ARQUITETURA DO LABSTRAW                              │
-├──────────────────────────────┬──────────────────────────────────────────────┤
-│        CAMADA FRONTEND       │         NÚCLEO DE SIMULAÇÃO                  │
-│  React + TypeScript          │   Python  ·  (Rust planejado)                │
-│  HTML5 · CSS3 · JavaScript   │                                              │
-│  Estado: Zustand (slices)    │   ┌── Motor de EOS (SRK, PR, CPA, IAPWS)    │
-│  Canvas: ReactFlow           │   ├── Motor de Flash (TP · PH · PS)          │
-│  Estilo: Tailwind CSS        │   ├── Motor de Solver (NR · Broyden · BDF)   │
-│  Tabelas de Propriedades     │   ├── Motor de Destilação (MESH · DSTWU)     │
-│  Módulo Econômico            │   ├── Motor Dinâmico (ODE/DAE)               │
-│  Análise de Sensibilidade    │   ├── Motor de Otimização (scipy-based)      │
-│  Pinch Analysis              │   ├── Motor de Controle (PID · MPC)          │
-│  Controle (PID / MPC)        │   └── Motor de Gêmeo Digital (em construção) │
-│  Assistente LLM              │                                              │
-├──────────────────────────────┤   Banco DIPPR integrado                      │
-│       TERMODINÂMICA          │   Convergência de reciclos (Tarjan SCC)      │
-│  SRK-EOS · PR-EOS            │   Autenticação JWT via Supabase              │
-│  NRTL · UNIQUAC · UNIFAC     │   Análise econômica (CAPEX/OPEX/VPL/TIR)    │
-│  Flash VLE · Diagramas Fase  │                                              │
-│  DSTWU · Trocadores · PFR    │                                              │
-└──────────────────────────────┴──────────────────────────────────────────────┘
-```
-
-</div>
-
-**LabStraw** é um simulador de processos químicos baseado na web com meta de paridade funcional com o **DWSIM** e, a longo prazo, superação do **Aspen Plus** em acessibilidade — aberto, moderno e construído para a próxima geração de engenheiros de processo.
-
-### Status Real dos Módulos
-
-| Módulo | Status | Detalhe Técnico |
-|--------|:------:|:----------------|
-| 🟢 PR-EOS / SRK-EOS | Produção | Fugacidade por componente, regras de mistura, raízes cúbicas |
-| 🟢 Flash PT/PH/PS (Rachford-Rice) | Produção | Equilíbrio VLE multicomponente verificado em API |
-| 🟢 Trocadores de Calor | Produção | Balanço de energia, LMTD, coeficiente global |
-| 🟢 Reatores PFR e Batelada | Produção | Integração RK4, perfis de T e concentração |
-| 🟢 Destilação Simplificada (DSTWU) | Produção | Especificação por recuperação |
-| 🟢 Solver NR / Broyden | Produção | 967 linhas, implementado e funcional |
-| 🟢 Integrador BDF | Produção | `dynamic_engine/integrators/bdf.py` funcional |
-| 🟢 CAPEX / OPEX / VPL / TIR | Produção | Integrado ao fluxograma com sensibilidade |
-| 🟡 Destilação MESH Multicomponente | **Bug ativo** | Convergência OK (74 iter), mas K-values desacoplados do EOS — composições erradas |
-| 🟡 NRTL / UNIQUAC | Bug ativo | Import OK, `activity_coefficients()` retorna erro de tipo (`float` vs `str`) |
-| 🟡 UNIFAC | Em correção | Estrutura OK, mapeamento `component_groups` ausente |
-| 🟡 CPA EOS | Não validado | 285 linhas implementadas, aguarda benchmark |
-| 🟡 IAPWS-95/IF97 | Incompleto | 443 linhas, `from_PT()` não implementado |
-| 🟡 Análise de Sensibilidade | Beta | Frontend completo, backend aguarda conexão com EOS real |
-| 🔵 MPC Controller | Em desenvolvimento | Controlador implementado, desconectado do simulador dinâmico |
-| 🔵 Motor Gêmeo Digital | Em desenvolvimento | Service layer e conectores (OPC-UA, MQTT) em scaffold |
-| 🔵 GERG-2008 / BWRS / LKP | Planejado | Scaffolds criados, implementação pendente |
-| 🔵 Motor EO (Equation-Oriented) | Planejado | GlobalSystem funcional (139 linhas), assembler incompleto |
-| 🔵 Otimização com IA / PINN | Planejado | `bayesian_optimization.py` em scaffold, arquitetura definida |
-
----
-
-## 🌐 Simulações 3D & Visualizações Interativas
-
-O LabStraw vai além de tabelas — os resultados de simulação ganham vida em representações tridimensionais e interativas:
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│              VISUALIZAÇÕES 3D IMPLEMENTADAS E PLANEJADAS                    │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  ✅ Diagrama de Fases 3D (T-x-y, P-x-y binário e ternário)                 │
-│     → Three.js + WebGL: superfícies de equilíbrio rotacionáveis em tempo   │
-│       real; envelope bifásico visualizado como malha 3D sobre grid P-T-x   │
-│                                                                             │
-│  ✅ Perfil de Estágios de Destilação (3D Stage Composition Plot)            │
-│     → eixos: estágio × componente × fração molar; barras empilhadas        │
-│       por fase (L/V) geradas dinamicamente com D3.js + custom WebGL         │
-│                                                                             │
-│  ✅ Canvas de Fluxograma Interativo                                          │
-│     → ReactFlow + SVG P&ID-standard: arrasto, conexão, zoom e resultado    │
-│       propagado em tempo real entre operações unitárias encadeadas           │
-│                                                                             │
-│  🔄 Reator PFR — Perfil 3D de Temperatura e Conversão                      │
-│     → geometria cilíndrica WebGL com gradiente de cor mapeado ao perfil    │
-│       axial T(z) e X(z); rotação orbital com Three.js OrbitControls        │
-│                                                                             │
-│  🔄 Gêmeo Digital — Planta Industrial em 3D                                 │
-│     → modelo glTF da planta renderizado em Three.js; tags OPC-UA           │
-│       mapeadas a geometrias específicas; alertas visuais em tempo real      │
-│                                                                             │
-│  🔵 Diagrama de Pareto 3D (Otimização Multiobjetivo)                        │
-│     → frente de Pareto no espaço CAPEX × OPEX × Emissões de CO₂            │
-│       como nuvem de pontos interativa; seleção de solução por clique        │
-│                                                                             │
-│  🔵 Visualizador de Superfície de Energia de Gibbs                          │
-│     → G_mix(x₁, x₂) como superfície 3D contínua; spinodal e binodal       │
-│       destacados; indicação visual de separação de fases espontânea         │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-
-Tecnologias de visualização: Three.js · WebGL · D3.js · Plotly.js · ReactFlow
-```
-
----
-
-## ⚗️ Arsenal Técnico
-
-<div align="center">
-
-### 💻 Linguagens de Programação
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-
-### 🔬 Computação Científica
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![SymPy](https://img.shields.io/badge/SymPy-3B5526?style=for-the-badge&logo=sympy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-
-### 🌐 Visualização 3D & Web
-
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
-![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-
-### 🤖 Inteligência Artificial & Machine Learning
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-
-### ⚡ Frontend & Web
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![ReactFlow](https://img.shields.io/badge/ReactFlow-FF0072?style=for-the-badge&logo=react&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white)
-
-### 🛠️ Backend & Infraestrutura
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+| Domínio | O que implementei |
+|---------|-------------------|
+| ⚗️ **Termodinâmica Computacional** | SRK-EOS e Peng-Robinson do zero: raízes cúbicas, coeficientes de fugacidade por componente, regras de mistura de van der Waals |
+| 🔄 **Equilíbrio de Fases** | Flash TP/PH/PS com Rachford-Rice + Newton-Raphson; equilíbrio líquido-vapor multicomponente com K-values iterativos |
+| 🧮 **Métodos Numéricos** | Integração RK4 para ODEs, BDF para DAEs, Broyden quasi-Newton, algoritmo de Tarjan (SCC) para detecção e convergência de reciclos |
+| ⚙️ **Operações Unitárias** | Destilação DSTWU, reatores PFR e batelada com perfis T(z) e X(z), trocadores de calor (LMTD e coef. global), separadores flash |
+| 💻 **Frontend Científico** | Canvas interativo de fluxograma com ReactFlow + Zustand (slices de estado), tabelas de propriedades e resultados em tempo real |
+| 💰 **Análise Econômica de Processos** | CAPEX/OPEX por equipamento, VPL, TIR, payback e índice de lucratividade — integrados ao fluxograma com sensibilidade paramétrica |
+| 🎨 **Visualização 3D** | Diagramas de fases (T-x-y, P-x-y) e perfis de composição por estágio renderizados com Three.js + WebGL |
+| 🔐 **Infraestrutura & Auth** | Deploy em Railway com Docker, autenticação JWT via Supabase, APIs REST com FastAPI |
 
 </div>
 
 ---
 
-## 🧪 Domínio Técnico
+## 🏭 Simulação de Processos na Prática
+
+<div align="center">
+
+<img src= />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src= />
+
+<br/><br/>
+
+*Da equação de estado ao fluxograma em produção — cada linha de código tem fundamento físico.*
+
+</div>
+
+---
+
+## 🛠️ Stack Tecnológico
+
+<div align="center">
+
+### Linguagens de Programação
+
+<p>
+  <img height="40" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+</p>
+
+### Computação Científica
+
+<p>
+  <img height="40" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/SymPy-3B5526?style=for-the-badge&logo=sympy&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
+</p>
+
+### Frontend & Visualização
+
+<p>
+  <img height="40" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/ReactFlow-FF0072?style=for-the-badge&logo=react&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white"/>
+</p>
+
+### Inteligência Artificial & Machine Learning
+
+<p>
+  <img height="40" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+</p>
+
+### Backend & Infraestrutura
+
+<p>
+  <img height="40" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  &nbsp;
+  <img height="40" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+</p>
+
+</div>
+
+---
+
+## 📊 Estatísticas do GitHub
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=0Sams0&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=060d1f&title_color=7ecfff&icon_color=7ecfff&text_color=c9d1d9"/>
+&nbsp;&nbsp;
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0Sams0&layout=compact&theme=tokyonight&hide_border=true&bg_color=060d1f&title_color=7ecfff&text_color=c9d1d9&langs_count=8"/>
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=0Sams0&theme=tokyonight&hide_border=true&background=060d1f&stroke=7ecfff&ring=7ecfff&fire=FF6B35&currStreakLabel=7ecfff&sideLabels=7ecfff&dates=c9d1d9"/>
+
+</div>
+
+---
+
+## 🔬 Como resolvo problemas de engenharia
+
+> Quando o solver converge mas a física está errada — isso não é sucesso. É o problema mais interessante.
+
+No LabStraw, o solver MESH para destilação multicomponente atingia convergência em 74 iterações, porém retornava **composições de destilado e fundo idênticas** e temperaturas em torno de 255 K para benzeno-tolueno — quando o intervalo correto é 353–383 K. Nenhuma exceção. Nenhum erro. Apenas física errada.
+
+**Diagnóstico:** os K-values eram calculados pela correlação de Wilson ou por estimativa inicial, nunca acoplados ao Peng-Robinson EOS nas iterações internas por estágio. A inicialização de temperatura usava interpolação linear simples em vez de cálculo iterativo do ponto de bolha real da mistura.
+
+**O que esse episódio me ensinou:** existe uma diferença fundamental entre um solver que *roda* e um solver que está *correto* — e identificar essa diferença exige compreender a física por trás do algoritmo, não apenas depurar código. É o tipo de raciocínio que desenvolvo diariamente.
+
+---
+
+## 🚀 LabStraw — Projeto Principal
+
+<div align="center">
+
+<a href="https://precious-cat-production-240f.up.railway.app/">
+  <img height="42" src="https://img.shields.io/badge/🚀%20Abrir%20Demo%20ao%20Vivo-precious--cat--production.up.railway.app-FF6B35?style=for-the-badge"/>
+</a>
+
+</div>
+
+<br/>
+
+**LabStraw** é um simulador de processos industriais baseado na web, construído do zero em Python e React/TypeScript. A meta é paridade funcional com o DWSIM — e, a longo prazo, superar o Aspen Plus em acessibilidade para engenheiros e estudantes de todo o mundo.
+
+O diferencial não é apenas funcional: o LabStraw expõe ao usuário o que acontece por dentro — diagramas de fases interativos, perfis de composição por estágio em 3D, sensibilidade paramétrica em tempo real e análise econômica diretamente integrada ao fluxograma.
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│  TERMODINÂMICA           │  MÉTODOS NUMÉRICOS        │  ENG. DE PROCESSO    │
-│  ─────────────────────   │  ─────────────────────    │  ─────────────────   │
-│  Equações de Estado      │  Newton-Raphson           │  Destilação DSTWU    │
-│  SRK · Peng-Robinson     │  Broyden (quasi-Newton)   │  MESH (em depuração) │
-│  CPA · IAPWS-95/IF97     │  Método de Brent          │  Absorção            │
-│  Banco de Dados DIPPR    │  Integração RK4 / BDF     │  Reatores PFR/CSTR   │
-│  Flash VLE (TP, PH, PS)  │  Rachford-Rice            │  Trocadores de Calor │
-│  NRTL · UNIQUAC · UNIFAC │  Algoritmo Tarjan SCC     │  Separadores Flash   │
-│  Coeficientes de Fugac.  │  Substituição Sucessiva   │  Convergência Reciclo│
-├─────────────────────────────────────────────────────────────────────────────┤
-│  ANÁLISE ECONÔMICA       │  ARQUITETURA DE SW        │  IA / PESQUISA       │
-│  ─────────────────────   │  ─────────────────────    │  ─────────────────   │
-│  CAPEX / OPEX            │  Slices de Estado Zustand │  PINN (planejado)    │
-│  VPL / TIR / Payback     │  Canvas ReactFlow         │  Otimização Bayesian │
-│  Sensibilidade Param.    │  APIs REST (FastAPI)       │  Modelos Substitutos │
-│  Índice de Lucratividade │  Autenticação JWT          │  Otimização Multi-obj│
-│  Análise de Risco        │  Design Modular por Plugin │  Controle MPC        │
-│                          │  HTML · CSS · JS / Vite   │  Three.js / WebGL    │
-└─────────────────────────────────────────────────────────────────────────────┘
+Em Produção                    Em Depuração Ativa              Roadmap
+──────────────────────         ────────────────────            ────────────────────
+✅ PR-EOS / SRK-EOS            🟡 MESH Multicomponente         🔵 Solver DAE Completo
+✅ Flash TP / PH / PS           🟡 NRTL / UNIQUAC               🔵 Controle MPC Conectado
+✅ Trocadores de Calor          🟡 IAPWS-95 / IF97              🔵 PINN — Modelos Substitutos
+✅ PFR + Reator Batelada (RK4)  🟡 CPA EOS (validação)         🔵 Motor Gêmeo Digital
+✅ Destilação DSTWU                                             🔵 Solver em Rust
+✅ CAPEX / OPEX / VPL / TIR                                     🔵 GERG-2008 / BWRS / LKP
+✅ Reciclos via Tarjan SCC                                      🔵 Otimização Multiobjetivo
+✅ Autenticação JWT (Supabase)                                   🔵 Importação Aspen .bkp
+✅ Visualização 3D (Three.js)
+✅ Análise de Sensibilidade
 ```
 
 ---
 
-## 🔬 Como Penso Sobre Algoritmos
+## 📚 Estudando agora
 
-Programação científica exige mais do que escrever código — exige entender **por que** um método converge, **quando** ele falha, e **como** diagnosticar resultados fisicamente incorretos mesmo quando o solver não lança erros.
-
-Alguns exemplos concretos do que aprendi no LabStraw:
-
-```
-PROBLEMA REAL: Solver MESH converge em 74 iterações, mas retorna composições
-de destilado e fundo idênticas e temperaturas em ~255K para benzeno-tolueno
-(intervalo correto: 353–383K).
-
-DIAGNÓSTICO: K-values calculados por Wilson ou estimativa inicial, não
-acoplados ao Peng-Robinson EOS durante as iterações internas de estágio.
-Inicialização de temperatura linear não parte do ponto de bolha real.
-
-SOLUÇÃO PLANEJADA: Garantir que _k_values_for_stage() invoca
-PengRobinsonEOS.fugacity_coefficient() com composições de fase corretas
-por estágio; inicializar T via ponto de bolha iterativo antes do loop MESH.
-```
-
-```
-PROBLEMA REAL: NRTLModel.activity_coefficients() lança
-"'float' object has no attribute 'upper'" em sistemas polares.
-
-DIAGNÓSTICO: Parâmetros τ do banco DIPPR chegam como float, mas o indexador
-de string do modelo trata como chave de texto — problema de tipagem nos
-parâmetros de interação binária (BIP).
-```
-
-Esse tipo de raciocínio — **reproduzir, isolar, entender a raiz e corrigir com benchmark verificável** — é o que mais desenvolvo hoje.
-
----
-
-## 📈 Roteiro de Desenvolvimento
-
-```
-2024 ─────────────────────────────────────────────────────────────── 2027
-
-  [✅ Fase 1] Termodinâmica e Motor Flash Principal
-       └── SRK/PR EOS, banco DIPPR, cálculos de equilíbrio VLE, fugacidades
-
-  [✅ Fase 2] Unidades de Processo e Canvas Interativo
-       └── Canvas ReactFlow, PFR, trocadores, separadores, reciclos Tarjan SCC
-
-  [✅ Fase 3] Destilação Simplificada e Reatores
-       └── DSTWU, reator batelada RK4, PFR adiabático, batelada semi-contínua
-
-  [✅ Fase 4] Módulo Econômico e Autenticação
-       └── CAPEX/OPEX, VPL/TIR/payback, autenticação JWT via Supabase
-
-  [🔄 Fase 5] Correções Críticas e Integração — EM ANDAMENTO
-       └── Bug MESH (K-values), tabela BIP ausente, NRTL bug de tipo,
-           sensibilidade ao vivo, sincronização econômica real
-
-  [🔵 Fase 6] Simulação Dinâmica e Controle de Processo
-       └── Solver DAE completo, malhas PID, MPC conectado ao processo,
-           WebSocket para strip charts em tempo real
-
-  [🔵 Fase 7] Inteligência Artificial e Gêmeos Digitais
-       └── Modelos substitutos PINN, assistente LLM com contexto do fluxograma,
-           HAZOP automatizado, otimização multiobjetivo com frente de Pareto
-
-  [🔵 Fase 8] Backend de Alta Performance e Plataforma
-       └── Solver em Rust/C++, EOS GERG-2008/BWRS/LKP, import Aspen .bkp,
-           SDK Python público, API keys para integração externa
+```python
+aprendendo_agora = [
+    "Solvers DAE/EDA — simulação dinâmica de processos industriais",
+    "Métodos de homotopia e continuação para convergência robusta em flash bifásico",
+    "Arquitetura equation-oriented (EO) com montagem de Jacobiano esparso",
+    "Physics-Informed Neural Networks (PINN) para modelos substitutos de processo",
+    "Rust — para o núcleo de solver de alta performance do LabStraw",
+    "Métodos de otimização multiobjetivo (frentes de Pareto, NSGA-II)",
+]
 ```
 
 ---
 
-## 🎯 Objetivos Profissionais
+## 🎯 Objetivos
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-**Curto Prazo (1–2 anos)**
-- 🔬 Corrigir os bugs críticos do LabStraw (MESH, NRTL, BIP)
-- 📊 Simulação dinâmica com solvers DAE completos
-- 🤖 Primeiro módulo de otimização com IA funcional
-- 🌐 LabStraw em produção com usuários reais
-- 📝 Contribuição a artigos ou projetos de pesquisa em simulação numérica
+**Próximos 12–24 meses**
+- Corrigir solver MESH com K-values totalmente acoplados ao EOS
+- Simulação dinâmica com solvers DAE completos e strip charts em tempo real
+- Primeiro módulo funcional de otimização com IA (Bayesian + PINN)
+- LabStraw em produção com usuários reais de engenharia
+- Contribuição a artigos ou projetos de pesquisa em simulação numérica
+- Aprofundar domínio em Rust para núcleos de alto desempenho
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-**Visão de Longo Prazo**
-- 🏭 Gêmeos Digitais para plantas industriais reais
-- ⚡ Solver de alta performance em Rust/C++
-- 🧠 PINN — Redes Neurais com Física Incorporada
-- 🌍 Ecossistema open-source de simulação industrial
-- 🔭 Desenvolvimento de simuladores similares em outros domínios
+**Visão de longo prazo**
+- Gêmeos digitais para plantas industriais reais, conectados via OPC-UA / MQTT
+- Núcleo de solver de alta performance em Rust / C++
+- PINN aplicados a modelos substitutos de processo
+- Ecossistema open-source de simulação industrial com SDK Python público
+- Ferramenta que qualquer engenheiro do mundo consiga usar — de graça
 
 </td>
 </tr>
@@ -409,27 +275,20 @@ Esse tipo de raciocínio — **reproduzir, isolar, entender a raiz e corrigir co
 
 ---
 
-## 🤝 Vamos Conversar
+## 💬 Vamos conversar
+
+Trabalha com simulação de processos, computação científica, algoritmos numéricos ou IA industrial? Estou sempre aberta a colaborações, estágios e trocas técnicas.
 
 <div align="center">
-
-[![E-mail](https://img.shields.io/badge/E--mail-samarasantosalmeida2005@gmail.com-00FF88?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samarasantosalmeida2005@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samara-almeida-15a334415)
-[![GitHub](https://img.shields.io/badge/GitHub-0Sams0-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0Sams0)
-[![LabStraw](https://img.shields.io/badge/LabStraw-Demo_ao_Vivo-FF6B35?style=for-the-badge&logo=rocket&logoColor=white)](https://precious-cat-production-240f.up.railway.app/)
-
-</div>
 
 <br/>
 
-<div align="center">
+<a href="mailto:samarasantosalmeida2005@gmail.com">
+  <img height="42" src="https://img.shields.io/badge/Entre%20em%20Contato-samarasantosalmeida2005%40gmail.com-7ECFFF?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
-```
-⚗️  Trabalha com simulação de processos, computação científica, algoritmos numéricos
-        ou IA industrial? Bora trocar ideia — estou sempre aberta a colaborações.
-```
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:060d1f,40:0a1a35,100:071428&height=130&section=footer&animation=fadeIn" />
 
 </div>
-
-<!-- RODAPÉ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
