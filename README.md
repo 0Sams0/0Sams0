@@ -380,3 +380,14 @@ Trabalha com simulação de processos, computação científica, algoritmos num�
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:060d1f,40:0a1a35,100:071428&height=130&section=footer&animation=fadeIn" />
 
 </div>
+
+## Snake Game 🐍
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/0Sams0/0Sams0/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/0Sams0/0Sams0/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation"
+       src="https://raw.githubusercontent.com/0Sams0/0Sams0/output/github-contribution-grid-snake.svg" />
+</picture>
