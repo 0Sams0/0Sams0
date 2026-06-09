@@ -32,6 +32,7 @@ class SamaraAlmeida:
         "TypeScript/React: arquitetura de estado com Zustand, canvas interativo com ReactFlow",
         "Algoritmos numéricos: Newton-Raphson, RK4, Rachford-Rice, Tarjan SCC",
         "Termodinâmica aplicada: SRK, Peng-Robinson, flash TP/PH/PS, equilíbrio VLE",
+        "Web: HTML5, CSS3, JavaScript — base sólida de frontend moderno",
     ]
 
     atualmente_estudando = [
@@ -70,6 +71,10 @@ class SamaraAlmeida:
 │                         │  estado global Zustand, tabelas de propriedades,  │
 │                         │  módulo econômico CAPEX/OPEX/VPL/TIR              │
 ├─────────────────────────┼───────────────────────────────────────────────────┤
+│  HTML / CSS / JS        │  ███████░░░  Sólido — base de todo o frontend do  │
+│                         │  LabStraw: layouts responsivos, animações CSS,    │
+│                         │  DOM manipulation, Vite bundler, Web APIs         │
+├─────────────────────────┼───────────────────────────────────────────────────┤
 │  Rust                   │  ███░░░░░░░  Aprendendo — planejado para o        │
 │                         │  núcleo de solver de alta performance do LabStraw │
 ├─────────────────────────┼───────────────────────────────────────────────────┤
@@ -100,6 +105,9 @@ class SamaraAlmeida:
 │  ✅ Análise econômica de processos: CAPEX/OPEX, VPL, TIR, payback           │
 │     → módulo integrado ao fluxograma com sensibilidade paramétrica           │
 │                                                                             │
+│  ✅ Frontend moderno com HTML5 + CSS3 + JavaScript                           │
+│     → interfaces responsivas, WebSocket real-time, Vite + TailwindCSS       │
+│                                                                             │
 │  🔄 Solver MESH para destilação multicomponente (em depuração ativa)        │
 │     → bug identificado: K-values desacoplados do EOS nas iterações internas  │
 │                                                                             │
@@ -120,20 +128,21 @@ class SamaraAlmeida:
 ├──────────────────────────────┬──────────────────────────────────────────────┤
 │        CAMADA FRONTEND       │         NÚCLEO DE SIMULAÇÃO                  │
 │  React + TypeScript          │   Python  ·  (Rust planejado)                │
-│  Estado: Zustand (slices)    │                                              │
-│  Canvas: ReactFlow           │   ┌── Motor de EOS (SRK, PR, CPA, IAPWS)    │
-│  Estilo: Tailwind CSS        │   ├── Motor de Flash (TP · PH · PS)          │
-│  Tabelas de Propriedades     │   ├── Motor de Solver (NR · Broyden · BDF)   │
-│  Módulo Econômico            │   ├── Motor de Destilação (MESH · DSTWU)     │
-│  Análise de Sensibilidade    │   ├── Motor Dinâmico (ODE/DAE)               │
-│  Pinch Analysis              │   ├── Motor de Otimização (scipy-based)      │
-│  Controle (PID / MPC)        │   ├── Motor de Controle (PID · MPC)          │
-│  Assistente LLM              │   └── Motor de Gêmeo Digital (em construção) │
-├──────────────────────────────┤                                              │
-│       TERMODINÂMICA          │   Banco DIPPR integrado                      │
-│  SRK-EOS · PR-EOS            │   Convergência de reciclos (Tarjan SCC)      │
-│  NRTL · UNIQUAC · UNIFAC     │   Autenticação JWT via Supabase              │
-│  Flash VLE · Diagramas Fase  │   Análise econômica (CAPEX/OPEX/VPL/TIR)    │
+│  HTML5 · CSS3 · JavaScript   │                                              │
+│  Estado: Zustand (slices)    │   ┌── Motor de EOS (SRK, PR, CPA, IAPWS)    │
+│  Canvas: ReactFlow           │   ├── Motor de Flash (TP · PH · PS)          │
+│  Estilo: Tailwind CSS        │   ├── Motor de Solver (NR · Broyden · BDF)   │
+│  Tabelas de Propriedades     │   ├── Motor de Destilação (MESH · DSTWU)     │
+│  Módulo Econômico            │   ├── Motor Dinâmico (ODE/DAE)               │
+│  Análise de Sensibilidade    │   ├── Motor de Otimização (scipy-based)      │
+│  Pinch Analysis              │   ├── Motor de Controle (PID · MPC)          │
+│  Controle (PID / MPC)        │   └── Motor de Gêmeo Digital (em construção) │
+│  Assistente LLM              │                                              │
+├──────────────────────────────┤   Banco DIPPR integrado                      │
+│       TERMODINÂMICA          │   Convergência de reciclos (Tarjan SCC)      │
+│  SRK-EOS · PR-EOS            │   Autenticação JWT via Supabase              │
+│  NRTL · UNIQUAC · UNIFAC     │   Análise econômica (CAPEX/OPEX/VPL/TIR)    │
+│  Flash VLE · Diagramas Fase  │                                              │
 │  DSTWU · Trocadores · PFR    │                                              │
 └──────────────────────────────┴──────────────────────────────────────────────┘
 ```
@@ -168,6 +177,50 @@ class SamaraAlmeida:
 
 ---
 
+## 🌐 Simulações 3D & Visualizações Interativas
+
+O LabStraw vai além de tabelas — os resultados de simulação ganham vida em representações tridimensionais e interativas:
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│              VISUALIZAÇÕES 3D IMPLEMENTADAS E PLANEJADAS                    │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  ✅ Diagrama de Fases 3D (T-x-y, P-x-y binário e ternário)                 │
+│     → Three.js + WebGL: superfícies de equilíbrio rotacionáveis em tempo   │
+│       real; envelope bifásico visualizado como malha 3D sobre grid P-T-x   │
+│                                                                             │
+│  ✅ Perfil de Estágios de Destilação (3D Stage Composition Plot)            │
+│     → eixos: estágio × componente × fração molar; barras empilhadas        │
+│       por fase (L/V) geradas dinamicamente com D3.js + custom WebGL         │
+│                                                                             │
+│  ✅ Canvas de Fluxograma Interativo                                          │
+│     → ReactFlow + SVG P&ID-standard: arrasto, conexão, zoom e resultado    │
+│       propagado em tempo real entre operações unitárias encadeadas           │
+│                                                                             │
+│  🔄 Reator PFR — Perfil 3D de Temperatura e Conversão                      │
+│     → geometria cilíndrica WebGL com gradiente de cor mapeado ao perfil    │
+│       axial T(z) e X(z); rotação orbital com Three.js OrbitControls        │
+│                                                                             │
+│  🔄 Gêmeo Digital — Planta Industrial em 3D                                 │
+│     → modelo glTF da planta renderizado em Three.js; tags OPC-UA           │
+│       mapeadas a geometrias específicas; alertas visuais em tempo real      │
+│                                                                             │
+│  🔵 Diagrama de Pareto 3D (Otimização Multiobjetivo)                        │
+│     → frente de Pareto no espaço CAPEX × OPEX × Emissões de CO₂            │
+│       como nuvem de pontos interativa; seleção de solução por clique        │
+│                                                                             │
+│  🔵 Visualizador de Superfície de Energia de Gibbs                          │
+│     → G_mix(x₁, x₂) como superfície 3D contínua; spinodal e binodal       │
+│       destacados; indicação visual de separação de fases espontânea        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Tecnologias de visualização: Three.js · WebGL · D3.js · Plotly.js · ReactFlow
+```
+
+---
+
 ## ⚗️ Arsenal Técnico
 
 <div align="center">
@@ -175,6 +228,9 @@ class SamaraAlmeida:
 ### Linguagens de Programação
 ![Python](https://img.shields.io/badge/Python-0A0E1A?style=for-the-badge&logo=python&logoColor=00FF88)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0A0E1A?style=for-the-badge&logo=typescript&logoColor=00D4FF)
+![JavaScript](https://img.shields.io/badge/JavaScript-0A0E1A?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![HTML5](https://img.shields.io/badge/HTML5-0A0E1A?style=for-the-badge&logo=html5&logoColor=E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-0A0E1A?style=for-the-badge&logo=css3&logoColor=1572B6)
 ![Rust](https://img.shields.io/badge/Rust-0A0E1A?style=for-the-badge&logo=rust&logoColor=FF6B35)
 ![C++](https://img.shields.io/badge/C++-0A0E1A?style=for-the-badge&logo=cplusplus&logoColor=00D4FF)
 ![Go](https://img.shields.io/badge/Go-0A0E1A?style=for-the-badge&logo=go&logoColor=00FF88)
@@ -189,6 +245,12 @@ class SamaraAlmeida:
 ![SymPy](https://img.shields.io/badge/SymPy-3B5526?style=for-the-badge&logo=sympy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
 
+### Visualização 3D & Web
+![Three.js](https://img.shields.io/badge/Three.js-0A0E1A?style=for-the-badge&logo=threedotjs&logoColor=white)
+![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
+![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+
 ### Inteligência Artificial e Aprendizado de Máquina
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -196,6 +258,7 @@ class SamaraAlmeida:
 
 ### Frontend e Web
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![ReactFlow](https://img.shields.io/badge/ReactFlow-FF0072?style=for-the-badge&logo=react&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-3D3D3D?style=for-the-badge&logo=react&logoColor=white)
@@ -206,6 +269,7 @@ class SamaraAlmeida:
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 </div>
 
@@ -232,6 +296,7 @@ class SamaraAlmeida:
 │  Sensibilidade Param.    │  APIs REST (FastAPI)       │  Modelos Substitutos │
 │  Índice de Lucratividade │  Autenticação JWT          │  Otimização Multi-obj│
 │  Análise de Risco        │  Design Modular por Plugin │  Controle MPC        │
+│                          │  HTML · CSS · JS / Vite   │  Three.js / WebGL    │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -306,6 +371,120 @@ Esse tipo de raciocínio — **reproduzir, isolar, entender a raiz e corrigir co
 
 ---
 
+## 📊 Estatísticas GitHub
+
+<div align="center">
+
+<!-- TROPHIES -->
+<img src="https://github-profile-trophy.vercel.app/?username=0Sams0&column=8&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=radical" />
+
+<br/><br/>
+
+<img height="175em" src="https://github-readme-stats.vercel.app/api?username=0Sams0&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0A0E1A&title_color=00FF88&icon_color=00D4FF&text_color=E8F4FD"/>
+
+<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0Sams0&layout=compact&theme=radical&hide_border=true&bg_color=0A0E1A&title_color=00FF88&text_color=E8F4FD&langs_count=8"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=0Sams0&theme=radical&hide_border=true&background=0A0E1A&stroke=00FF88&ring=00D4FF&fire=FF6B35&currStreakLabel=00FF88&sideLabels=E8F4FD&dates=888"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=0Sams0&theme=react-dark&bg_color=0A0E1A&color=00FF88&line=00D4FF&point=FF6B35&area=true&hide_border=true" />
+
+</div>
+
+<!-- 3D CONTRIBUTION GRAPH — gerado via GitHub Actions (lowlighter/metrics + 3d-contrib) -->
+<div align="center">
+
+### 📦 Contribuições 3D
+
+<img src="https://raw.githubusercontent.com/0Sams0/0Sams0/master/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" />
+
+</div>
+
+<!-- SNAKE ANIMATION — gerado via GitHub Actions (Platane/snk) -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/0Sams0/0Sams0/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+
+</div>
+
+---
+
+## ⚙️ Como Ativar os Gráficos 3D e a Snake
+
+> Esses visuais são gerados automaticamente por **GitHub Actions**. Adicione os workflows abaixo ao seu repositório de perfil (`0Sams0/0Sams0`).
+
+<details>
+<summary><b>🐍 Snake Animation</b> — <code>.github/workflows/snake.yml</code></summary>
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: 0Sams0
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+</details>
+
+<details>
+<summary><b>🧊 3D Contribution Graph</b> — <code>.github/workflows/3d-contrib.yml</code></summary>
+
+```yaml
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate 3D Contrib
+    steps:
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: 0Sams0
+      - name: Commit & Push
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add -A .
+          git commit -m "Generate 3D Contrib" || true
+          git push
+```
+
+</details>
+
+---
+
 ## 🎯 Objetivos Profissionais
 
 <table>
@@ -335,36 +514,12 @@ Esse tipo de raciocínio — **reproduzir, isolar, entender a raiz e corrigir co
 
 ---
 
-## 📊 Estatísticas GitHub
-
-<div align="center">
-
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=0Sams0&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0A0E1A&title_color=00FF88&icon_color=00D4FF&text_color=E8F4FD"/>
-
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0Sams0&layout=compact&theme=radical&hide_border=true&bg_color=0A0E1A&title_color=00FF88&text_color=E8F4FD&langs_count=8"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=0Sams0&theme=radical&hide_border=true&background=0A0E1A&stroke=00FF88&ring=00D4FF&fire=FF6B35&currStreakLabel=00FF88&sideLabels=E8F4FD&dates=888"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=0Sams0&theme=react-dark&bg_color=0A0E1A&color=00FF88&line=00D4FF&point=FF6B35&area=true&hide_border=true" />
-
-</div>
-
----
-
 ## 🤝 Vamos Conversar
 
 <div align="center">
 
-[![E-mail](https://img.shields.io/badge/E--mail-seuemail@email.com-00FF88?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samarasantosalmeida2005@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/samara-almeida-15a334415)
+[![E-mail](https://img.shields.io/badge/E--mail-samarasantosalmeida2005@gmail.com-00FF88?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samarasantosalmeida2005@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samara-almeida-15a334415)
 [![GitHub](https://img.shields.io/badge/GitHub-Seguir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0Sams0)
 
 </div>
@@ -381,6 +536,4 @@ Esse tipo de raciocínio — **reproduzir, isolar, entender a raiz e corrigir co
 </div>
 
 <!-- RODAPÉ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
-<!-- FOOTER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
