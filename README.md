@@ -351,9 +351,9 @@ aprendendo_agora = [
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=0Sams0&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=060d1f&title_color=7ecfff&icon_color=7ecfff&text_color=c9d1d9"/>
+<img height="180" src="github-stats-self-hosted-production.up.railway.app/api?username=0Sams0&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=060d1f&title_color=7ecfff&icon_color=7ecfff&text_color=c9d1d9"/>
 &nbsp;&nbsp;
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0Sams0&layout=compact&theme=tokyonight&hide_border=true&bg_color=060d1f&title_color=7ecfff&text_color=c9d1d9&langs_count=8"/>
+<img height="180" src="https://github-stats-self-hosted-production.up.railway.app/api/top-langs/?username=0Sams0&layout=compact&theme=tokyonight&hide_border=true&bg_color=060d1f&title_color=7ecfff&text_color=c9d1d9&langs_count=8"/>
 
 <br/><br/>
 
@@ -381,13 +381,13 @@ Trabalha com simulação de processos, computação científica, algoritmos num�
 
 </div>
 
-## Snake Game 🐍
+## Contribuições 🐍
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
           srcset="https://raw.githubusercontent.com/0Sams0/0Sams0/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)"
           srcset="https://raw.githubusercontent.com/0Sams0/0Sams0/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation"
+  <img alt="snake animation"
        src="https://raw.githubusercontent.com/0Sams0/0Sams0/output/github-contribution-grid-snake.svg" />
 </picture>
