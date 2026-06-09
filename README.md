@@ -9,9 +9,9 @@
 <br/>
 
 [![Foco](https://img.shields.io/badge/Foco-Simulação_Industrial-00FF88?style=for-the-badge&logo=atom&logoColor=white)](#)
-[![Stack](https://img.shields.io/badge/Stack-Python_•_TypeScript_•_Rust-00D4FF?style=for-the-badge&logo=code&logoColor=white)](#)
+[![Stack](https://img.shields.io/badge/Stack-Python_•_TypeScript_•_Rust-00D4FF?style=for-the-badge&logo=stackshare&logoColor=white)](#)
 [![Status](https://img.shields.io/badge/Status-Construindo_o_LabStraw-FF6B35?style=for-the-badge&logo=rocket&logoColor=white)](#)
-[![Nível](https://img.shields.io/badge/Nível-Intermediário_→_Avançado-9B59B6?style=for-the-badge&logo=graduation-cap&logoColor=white)](#)
+[![Nível](https://img.shields.io/badge/Nível-Intermediário_→_Avançado-9B59B6?style=for-the-badge&logo=graduationcap&logoColor=white)](#)
 
 </div>
 
@@ -26,6 +26,7 @@ class SamaraAlmeida:
     experiência  = "1–2 anos de programação — crescendo rápido em computação científica"
 
     projeto_principal = "LabStraw — Plataforma de Simulação de Processos Industriais"
+    site              = "https://precious-cat-production-240f.up.railway.app/"
 
     forças_técnicas = [
         "Python científico: NumPy, SciPy, implementação de EOS e solvers numéricos",
@@ -71,7 +72,7 @@ class SamaraAlmeida:
 │                         │  estado global Zustand, tabelas de propriedades,  │
 │                         │  módulo econômico CAPEX/OPEX/VPL/TIR              │
 ├─────────────────────────┼───────────────────────────────────────────────────┤
-│  HTML / CSS / JS        │  ███████░░░  Sólido — base de todo o frontend do  │
+│  HTML5 / CSS3 / JS      │  ███████░░░  Sólido — base de todo o frontend do  │
 │                         │  LabStraw: layouts responsivos, animações CSS,    │
 │                         │  DOM manipulation, Vite bundler, Web APIs         │
 ├─────────────────────────┼───────────────────────────────────────────────────┤
@@ -119,6 +120,8 @@ class SamaraAlmeida:
 ---
 
 ## 🏭 LabStraw — Projeto Principal
+
+> 🔗 **Deploy em produção:** [precious-cat-production-240f.up.railway.app](https://precious-cat-production-240f.up.railway.app/) · 🔒 **Código-fonte privado** (confidencial)
 
 <div align="center">
 
@@ -212,7 +215,7 @@ O LabStraw vai além de tabelas — os resultados de simulação ganham vida em 
 │                                                                             │
 │  🔵 Visualizador de Superfície de Energia de Gibbs                          │
 │     → G_mix(x₁, x₂) como superfície 3D contínua; spinodal e binodal       │
-│       destacados; indicação visual de separação de fases espontânea        │
+│       destacados; indicação visual de separação de fases espontânea         │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 
@@ -225,51 +228,57 @@ Tecnologias de visualização: Three.js · WebGL · D3.js · Plotly.js · ReactF
 
 <div align="center">
 
-### Linguagens de Programação
-![Python](https://img.shields.io/badge/Python-0A0E1A?style=for-the-badge&logo=python&logoColor=00FF88)
-![TypeScript](https://img.shields.io/badge/TypeScript-0A0E1A?style=for-the-badge&logo=typescript&logoColor=00D4FF)
-![JavaScript](https://img.shields.io/badge/JavaScript-0A0E1A?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![HTML5](https://img.shields.io/badge/HTML5-0A0E1A?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-0A0E1A?style=for-the-badge&logo=css3&logoColor=1572B6)
-![Rust](https://img.shields.io/badge/Rust-0A0E1A?style=for-the-badge&logo=rust&logoColor=FF6B35)
-![C++](https://img.shields.io/badge/C++-0A0E1A?style=for-the-badge&logo=cplusplus&logoColor=00D4FF)
-![Go](https://img.shields.io/badge/Go-0A0E1A?style=for-the-badge&logo=go&logoColor=00FF88)
-![Java](https://img.shields.io/badge/Java-0A0E1A?style=for-the-badge&logo=openjdk&logoColor=FF6B35)
-![C](https://img.shields.io/badge/C-0A0E1A?style=for-the-badge&logo=c&logoColor=00D4FF)
-![C#](https://img.shields.io/badge/C%23-0A0E1A?style=for-the-badge&logo=csharp&logoColor=00FF88)
+### 💻 Linguagens de Programação
 
-### Computação Científica
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+
+### 🔬 Computação Científica
+
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![SymPy](https://img.shields.io/badge/SymPy-3B5526?style=for-the-badge&logo=sympy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
 
-### Visualização 3D & Web
-![Three.js](https://img.shields.io/badge/Three.js-0A0E1A?style=for-the-badge&logo=threedotjs&logoColor=white)
+### 🌐 Visualização 3D & Web
+
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
 ![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
 ![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
-### Inteligência Artificial e Aprendizado de Máquina
+### 🤖 Inteligência Artificial & Machine Learning
+
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
-### Frontend e Web
+### ⚡ Frontend & Web
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![ReactFlow](https://img.shields.io/badge/ReactFlow-FF0072?style=for-the-badge&logo=react&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-3D3D3D?style=for-the-badge&logo=react&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white)
 
-### Infraestrutura e DevOps
+### 🛠️ Backend & Infraestrutura
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 </div>
 
@@ -371,120 +380,6 @@ Esse tipo de raciocínio — **reproduzir, isolar, entender a raiz e corrigir co
 
 ---
 
-## 📊 Estatísticas GitHub
-
-<div align="center">
-
-<!-- TROPHIES -->
-<img src="https://github-profile-trophy.vercel.app/?username=0Sams0&column=8&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=radical" />
-
-<br/><br/>
-
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=0Sams0&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0A0E1A&title_color=00FF88&icon_color=00D4FF&text_color=E8F4FD"/>
-
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0Sams0&layout=compact&theme=radical&hide_border=true&bg_color=0A0E1A&title_color=00FF88&text_color=E8F4FD&langs_count=8"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=0Sams0&theme=radical&hide_border=true&background=0A0E1A&stroke=00FF88&ring=00D4FF&fire=FF6B35&currStreakLabel=00FF88&sideLabels=E8F4FD&dates=888"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=0Sams0&theme=react-dark&bg_color=0A0E1A&color=00FF88&line=00D4FF&point=FF6B35&area=true&hide_border=true" />
-
-</div>
-
-<!-- 3D CONTRIBUTION GRAPH — gerado via GitHub Actions (lowlighter/metrics + 3d-contrib) -->
-<div align="center">
-
-### 📦 Contribuições 3D
-
-<img src="https://raw.githubusercontent.com/0Sams0/0Sams0/master/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" />
-
-</div>
-
-<!-- SNAKE ANIMATION — gerado via GitHub Actions (Platane/snk) -->
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/0Sams0/0Sams0/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-
-</div>
-
----
-
-## ⚙️ Como Ativar os Gráficos 3D e a Snake
-
-> Esses visuais são gerados automaticamente por **GitHub Actions**. Adicione os workflows abaixo ao seu repositório de perfil (`0Sams0/0Sams0`).
-
-<details>
-<summary><b>🐍 Snake Animation</b> — <code>.github/workflows/snake.yml</code></summary>
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: 0Sams0
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
-
-<details>
-<summary><b>🧊 3D Contribution Graph</b> — <code>.github/workflows/3d-contrib.yml</code></summary>
-
-```yaml
-name: GitHub-Profile-3D-Contrib
-
-on:
-  schedule:
-    - cron: "0 18 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: Generate 3D Contrib
-    steps:
-      - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: 0Sams0
-      - name: Commit & Push
-        run: |
-          git config user.email "action@github.com"
-          git config user.name "GitHub Action"
-          git add -A .
-          git commit -m "Generate 3D Contrib" || true
-          git push
-```
-
-</details>
-
----
-
 ## 🎯 Objetivos Profissionais
 
 <table>
@@ -519,8 +414,9 @@ jobs:
 <div align="center">
 
 [![E-mail](https://img.shields.io/badge/E--mail-samarasantosalmeida2005@gmail.com-00FF88?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samarasantosalmeida2005@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samara-almeida-15a334415)
-[![GitHub](https://img.shields.io/badge/GitHub-Seguir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0Sams0)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samara-almeida-15a334415)
+[![GitHub](https://img.shields.io/badge/GitHub-0Sams0-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0Sams0)
+[![LabStraw](https://img.shields.io/badge/LabStraw-Demo_ao_Vivo-FF6B35?style=for-the-badge&logo=rocket&logoColor=white)](https://precious-cat-production-240f.up.railway.app/)
 
 </div>
 
