@@ -19,8 +19,6 @@
 
 ## `QUEM SOU`
 
-<img align="right" alt="3D Phase Diagram Simulation" width="380" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWd6NXZnNmZ3c3NraGMxcDJyNGE1ZTZscHBnNmhtdjVhNXJwZzdkayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPEqDGUULpEU0aQ/giphy.gif" />
-
 ```python
 class SamaraAlmeida:
     cargo        = "Estudante de Engenharia Química & Cientista Computacional"
@@ -45,81 +43,79 @@ class SamaraAlmeida:
         "Physics-Informed Neural Networks (PINN) para modelos substitutos",
     ]
 
+    focos_além_do_labstraw = [
+        "Pesquisa acadêmica: algoritmos numéricos e métodos termodinâmicos",
+        "Otimização e análise de algoritmos: complexidade, convergência, robustez",
+        "Desenvolvimento de simuladores industriais similares ao LabStraw",
+    ]
+
     objetivo = "Criar ferramentas open-source que superem o Aspen Plus em acessibilidade"
 ```
 
 > *"A melhor simulação é aquela que um engenheiro real consegue usar em produção — e que um estudante consegue entender e melhorar."*
 
-<br clear="right"/>
-
 ---
 
-## 🧬 LabStraw em Ação — Simulações 3D
+## 📊 Perfil Técnico Detalhado
 
-<div align="center">
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         MAPA DE COMPETÊNCIAS                                │
+├─────────────────────────┬───────────────────────────────────────────────────┤
+│  LINGUAGEM              │  NÍVEL E CONTEXTO DE USO                          │
+├─────────────────────────┼───────────────────────────────────────────────────┤
+│  Python                 │  ████████░░  Sólido — implemento EOS, solvers     │
+│                         │  numéricos, integração RK4/BDF, otimização        │
+│                         │  scipy-based, análise termodinâmica de processo   │
+├─────────────────────────┼───────────────────────────────────────────────────┤
+│  TypeScript / React     │  ███████░░░  Sólido — canvas interativo ReactFlow │
+│                         │  estado global Zustand, tabelas de propriedades,  │
+│                         │  módulo econômico CAPEX/OPEX/VPL/TIR              │
+├─────────────────────────┼───────────────────────────────────────────────────┤
+│  HTML5 / CSS3 / JS      │  ███████░░░  Sólido — base de todo o frontend do  │
+│                         │  LabStraw: layouts responsivos, animações CSS,    │
+│                         │  DOM manipulation, Vite bundler, Web APIs         │
+├─────────────────────────┼───────────────────────────────────────────────────┤
+│  Rust                   │  ███░░░░░░░  Aprendendo — planejado para o        │
+│                         │  núcleo de solver de alta performance do LabStraw │
+├─────────────────────────┼───────────────────────────────────────────────────┤
+│  C / C++                │  ██░░░░░░░░  Base — sintaxe, ponteiros, structs   │
+├─────────────────────────┼───────────────────────────────────────────────────┤
+│  Java / C# / Go         │  ██░░░░░░░░  Conhecimento básico, uso pontual     │
+└─────────────────────────┴───────────────────────────────────────────────────┘
 
-<table>
-<tr>
-<td align="center" width="33%">
-
-**⚗️ Diagrama de Fases 3D**
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWR4eGZ3Z3c5bjBhbjlodGI1MXN4dHhwczF5aDY5ZGNoNHRwbzAyZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" width="220" />
-
-*Superfície de equilíbrio VLE rotacionável — envelope bifásico em malha 3D P-T-x*
-
-</td>
-<td align="center" width="33%">
-
-**🌡️ Perfil de Reator PFR**
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmNiZnN5czA1cHpiNXFzbnJ5dWI0bmVhd2MxeHg3OHkwY2N3emxoMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3vR85wkOWuBarNSU/giphy.gif" width="220" />
-
-*Geometria cilíndrica WebGL — gradiente de T(z) e conversão X(z) ao longo do reator*
-
-</td>
-<td align="center" width="33%">
-
-**🏭 Canvas de Fluxograma**
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzE1OXZhbHQxbThzenIzeGN5YzVra3RkdTg4MXA4bnd4cGNtdGN6eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif" width="220" />
-
-*ReactFlow P&ID-standard — propagação de resultados em tempo real entre operações encadeadas*
-
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-
-**🔬 Equilíbrio Líquido-Vapor**
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHZxN2d4enZ6aHJtZTZ5OGoxeGVxenJlNGFpMWE4dnA3ejczOW5weSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btNa0RUYa5E7iiQ/giphy.gif" width="220" />
-
-*Flash TP/PH/PS com Rachford-Rice — K-values Peng-Robinson por componente*
-
-</td>
-<td align="center" width="33%">
-
-**📊 Análise Econômica**
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHFrYXQ2d2x6em4zeDU2MWlmNHZjZXNobHU2YjFraGVhNTNtZGV5aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d31w24psGYeekCZy/giphy.gif" width="220" />
-
-*CAPEX/OPEX/VPL/TIR com sensibilidade paramétrica integrada ao fluxograma*
-
-</td>
-<td align="center" width="33%">
-
-**⚡ Gêmeo Digital**
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWk2MzNxOXpnM3ZkdHBsMzlpOHA3Mmx0Y3Fla3l1bGR3MW8xazdiZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif" width="220" />
-
-*Modelo glTF + Three.js — tags OPC-UA mapeadas a geometrias; alertas em tempo real*
-
-</td>
-</tr>
-</table>
-
-</div>
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    O QUE SEI FAZER DE VERDADE (com código)                  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  ✅ Implementar equações de estado (SRK, Peng-Robinson) do zero             │
+│     → coeficientes de fugacidade, raízes cúbicas, regras de mistura         │
+│                                                                             │
+│  ✅ Resolver flash TP/PH/PS com Rachford-Rice e Newton-Raphson              │
+│     → equilíbrio líquido-vapor por componente, iteração interna K-values    │
+│                                                                             │
+│  ✅ Integrar ODEs com RK4 para reatores PFR e batelada                      │
+│     → perfis de concentração e temperatura ao longo do comprimento          │
+│                                                                             │
+│  ✅ Detectar e resolver reciclos com algoritmo de Tarjan (SCC)              │
+│     → tear streams, convergência por substituição sucessiva                  │
+│                                                                             │
+│  ✅ Construir canvas interativo de fluxograma com ReactFlow + Zustand        │
+│     → slices de estado independentes, propagação de resultados em tempo real │
+│                                                                             │
+│  ✅ Análise econômica de processos: CAPEX/OPEX, VPL, TIR, payback           │
+│     → módulo integrado ao fluxograma com sensibilidade paramétrica           │
+│                                                                             │
+│  ✅ Frontend moderno com HTML5 + CSS3 + JavaScript                           │
+│     → interfaces responsivas, WebSocket real-time, Vite + TailwindCSS       │
+│                                                                             │
+│  🔄 Solver MESH para destilação multicomponente (em depuração ativa)        │
+│     → bug identificado: K-values desacoplados do EOS nas iterações internas  │
+│                                                                             │
+│  🔄 Integrador BDF para equações diferenciais algébricas (DAE)              │
+│     → estrutura funcional, conexão com simulação dinâmica em desenvolvimento │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -170,67 +166,60 @@ class SamaraAlmeida:
 | 🟢 Solver NR / Broyden | Produção | 967 linhas, implementado e funcional |
 | 🟢 Integrador BDF | Produção | `dynamic_engine/integrators/bdf.py` funcional |
 | 🟢 CAPEX / OPEX / VPL / TIR | Produção | Integrado ao fluxograma com sensibilidade |
-| 🟡 Destilação MESH Multicomponente | **Bug ativo** | Convergência OK (74 iter), mas K-values desacoplados do EOS |
-| 🟡 NRTL / UNIQUAC | Bug ativo | `activity_coefficients()` retorna erro de tipo (`float` vs `str`) |
-| 🟡 UNIFAC | Em correção | Mapeamento `component_groups` ausente |
+| 🟡 Destilação MESH Multicomponente | **Bug ativo** | Convergência OK (74 iter), mas K-values desacoplados do EOS — composições erradas |
+| 🟡 NRTL / UNIQUAC | Bug ativo | Import OK, `activity_coefficients()` retorna erro de tipo (`float` vs `str`) |
+| 🟡 UNIFAC | Em correção | Estrutura OK, mapeamento `component_groups` ausente |
 | 🟡 CPA EOS | Não validado | 285 linhas implementadas, aguarda benchmark |
 | 🟡 IAPWS-95/IF97 | Incompleto | 443 linhas, `from_PT()` não implementado |
+| 🟡 Análise de Sensibilidade | Beta | Frontend completo, backend aguarda conexão com EOS real |
 | 🔵 MPC Controller | Em desenvolvimento | Controlador implementado, desconectado do simulador dinâmico |
 | 🔵 Motor Gêmeo Digital | Em desenvolvimento | Service layer e conectores (OPC-UA, MQTT) em scaffold |
+| 🔵 GERG-2008 / BWRS / LKP | Planejado | Scaffolds criados, implementação pendente |
 | 🔵 Motor EO (Equation-Oriented) | Planejado | GlobalSystem funcional (139 linhas), assembler incompleto |
 | 🔵 Otimização com IA / PINN | Planejado | `bayesian_optimization.py` em scaffold, arquitetura definida |
 
 ---
 
-## 📊 Perfil Técnico Detalhado
+## 🌐 Simulações 3D & Visualizações Interativas
+
+O LabStraw vai além de tabelas — os resultados de simulação ganham vida em representações tridimensionais e interativas:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                         MAPA DE COMPETÊNCIAS                                │
-├─────────────────────────┬───────────────────────────────────────────────────┤
-│  LINGUAGEM              │  NÍVEL E CONTEXTO DE USO                          │
-├─────────────────────────┼───────────────────────────────────────────────────┤
-│  Python                 │  ████████░░  Sólido — implemento EOS, solvers     │
-│                         │  numéricos, integração RK4/BDF, otimização        │
-│                         │  scipy-based, análise termodinâmica de processo   │
-├─────────────────────────┼───────────────────────────────────────────────────┤
-│  TypeScript / React     │  ███████░░░  Sólido — canvas interativo ReactFlow │
-│                         │  estado global Zustand, tabelas de propriedades,  │
-│                         │  módulo econômico CAPEX/OPEX/VPL/TIR              │
-├─────────────────────────┼───────────────────────────────────────────────────┤
-│  HTML5 / CSS3 / JS      │  ███████░░░  Sólido — base de todo o frontend do  │
-│                         │  LabStraw: layouts responsivos, animações CSS,    │
-│                         │  DOM manipulation, Vite bundler, Web APIs         │
-├─────────────────────────┼───────────────────────────────────────────────────┤
-│  Rust                   │  ███░░░░░░░  Aprendendo — planejado para o        │
-│                         │  núcleo de solver de alta performance do LabStraw │
-└─────────────────────────┴───────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    O QUE SEI FAZER DE VERDADE (com código)                  │
+│              VISUALIZAÇÕES 3D IMPLEMENTADAS E PLANEJADAS                    │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│  ✅ Implementar equações de estado (SRK, Peng-Robinson) do zero             │
-│     → coeficientes de fugacidade, raízes cúbicas, regras de mistura         │
+│  ✅ Diagrama de Fases 3D (T-x-y, P-x-y binário e ternário)                 │
+│     → Three.js + WebGL: superfícies de equilíbrio rotacionáveis em tempo   │
+│       real; envelope bifásico visualizado como malha 3D sobre grid P-T-x   │
 │                                                                             │
-│  ✅ Resolver flash TP/PH/PS com Rachford-Rice e Newton-Raphson              │
-│     → equilíbrio líquido-vapor por componente, iteração interna K-values    │
+│  ✅ Perfil de Estágios de Destilação (3D Stage Composition Plot)            │
+│     → eixos: estágio × componente × fração molar; barras empilhadas        │
+│       por fase (L/V) geradas dinamicamente com D3.js + custom WebGL         │
 │                                                                             │
-│  ✅ Integrar ODEs com RK4 para reatores PFR e batelada                      │
-│     → perfis de concentração e temperatura ao longo do comprimento          │
+│  ✅ Canvas de Fluxograma Interativo                                          │
+│     → ReactFlow + SVG P&ID-standard: arrasto, conexão, zoom e resultado    │
+│       propagado em tempo real entre operações unitárias encadeadas           │
 │                                                                             │
-│  ✅ Detectar e resolver reciclos com algoritmo de Tarjan (SCC)              │
-│     → tear streams, convergência por substituição sucessiva                  │
+│  🔄 Reator PFR — Perfil 3D de Temperatura e Conversão                      │
+│     → geometria cilíndrica WebGL com gradiente de cor mapeado ao perfil    │
+│       axial T(z) e X(z); rotação orbital com Three.js OrbitControls        │
 │                                                                             │
-│  ✅ Construir canvas interativo de fluxograma com ReactFlow + Zustand        │
-│     → slices de estado independentes, propagação de resultados em tempo real │
+│  🔄 Gêmeo Digital — Planta Industrial em 3D                                 │
+│     → modelo glTF da planta renderizado em Three.js; tags OPC-UA           │
+│       mapeadas a geometrias específicas; alertas visuais em tempo real      │
 │                                                                             │
-│  ✅ Análise econômica de processos: CAPEX/OPEX, VPL, TIR, payback           │
-│     → módulo integrado ao fluxograma com sensibilidade paramétrica           │
+│  🔵 Diagrama de Pareto 3D (Otimização Multiobjetivo)                        │
+│     → frente de Pareto no espaço CAPEX × OPEX × Emissões de CO₂            │
+│       como nuvem de pontos interativa; seleção de solução por clique        │
 │                                                                             │
-│  🔄 Solver MESH para destilação multicomponente (em depuração ativa)        │
-│  🔄 Integrador BDF para equações diferenciais algébricas (DAE)              │
+│  🔵 Visualizador de Superfície de Energia de Gibbs                          │
+│     → G_mix(x₁, x₂) como superfície 3D contínua; spinodal e binodal       │
+│       destacados; indicação visual de separação de fases espontânea         │
+│                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
+
+Tecnologias de visualização: Three.js · WebGL · D3.js · Plotly.js · ReactFlow
 ```
 
 ---
@@ -247,6 +236,11 @@ class SamaraAlmeida:
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
 ### 🔬 Computação Científica
 
@@ -290,57 +284,6 @@ class SamaraAlmeida:
 
 ---
 
-## 🌐 Visualizações 3D & Interativas
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center">
-
-**Diagrama T-x-y Binário / Ternário**
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWR4eGZ3Z3c5bjBhbjlodGI1MXN4dHhwczF5aDY5ZGNoNHRwbzAyZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" width="300" />
-
-Three.js + WebGL: superfícies rotacionáveis em tempo real
-
-</td>
-<td align="center">
-
-**Estágios de Destilação 3D**
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWNkMzhyYnN4bzZhd2Vlb2F2dHMxeXYyOGF6dGVudm9weTU2NTlsNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPrc2ngFZ6BTyww/giphy.gif" width="300" />
-
-Estágio × componente × fração molar — D3.js + WebGL
-
-</td>
-</tr>
-<tr>
-<td align="center">
-
-**Superfície de Energia de Gibbs**
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjk0aGlnazY0bmR5enB3cTU4bWhsa3FhM3p3cXlhMHVlanMzMzR5NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif" width="300" />
-
-G_mix(x₁,x₂) — spinodal e binodal + separação de fases espontânea
-
-</td>
-<td align="center">
-
-**Frente de Pareto — Otimização Multiobjetivo**
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHN1aDZzN3pyeTM5aXJ3cG5xYnE5MmlsdnZ1NHNvdXlnNWUzY2YxbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btNa0RUYa5E7iiQ/giphy.gif" width="300" />
-
-CAPEX × OPEX × CO₂ — nuvem de pontos interativa com Plotly.js
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
 ## 🧪 Domínio Técnico
 
 ```
@@ -372,6 +315,8 @@ CAPEX × OPEX × CO₂ — nuvem de pontos interativa com Plotly.js
 
 Programação científica exige mais do que escrever código — exige entender **por que** um método converge, **quando** ele falha, e **como** diagnosticar resultados fisicamente incorretos mesmo quando o solver não lança erros.
 
+Alguns exemplos concretos do que aprendi no LabStraw:
+
 ```
 PROBLEMA REAL: Solver MESH converge em 74 iterações, mas retorna composições
 de destilado e fundo idênticas e temperaturas em ~255K para benzeno-tolueno
@@ -379,6 +324,7 @@ de destilado e fundo idênticas e temperaturas em ~255K para benzeno-tolueno
 
 DIAGNÓSTICO: K-values calculados por Wilson ou estimativa inicial, não
 acoplados ao Peng-Robinson EOS durante as iterações internas de estágio.
+Inicialização de temperatura linear não parte do ponto de bolha real.
 
 SOLUÇÃO PLANEJADA: Garantir que _k_values_for_stage() invoca
 PengRobinsonEOS.fugacity_coefficient() com composições de fase corretas
@@ -395,26 +341,6 @@ parâmetros de interação binária (BIP).
 ```
 
 Esse tipo de raciocínio — **reproduzir, isolar, entender a raiz e corrigir com benchmark verificável** — é o que mais desenvolvo hoje.
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=0Sams0&show_icons=true&hide_border=true&title_color=00FF88&icon_color=00D4FF&text_color=FFFFFF&bg_color=000000&count_private=true&include_all_commits=true" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0Sams0&text_color=FFFFFF&bg_color=000000&title_color=00FF88&langs_count=10&layout=compact&hide_border=true" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=0Sams0&theme=dark&hide_border=true&stroke=00FF88&ring=00D4FF&fire=FF6B35&currStreakLabel=00FF88" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=0Sams0&theme=react-dark&hide_border=true&area=true" />
-
-</div>
 
 ---
 
@@ -448,7 +374,7 @@ Esse tipo de raciocínio — **reproduzir, isolar, entender a raiz e corrigir co
            HAZOP automatizado, otimização multiobjetivo com frente de Pareto
 
   [🔵 Fase 8] Backend de Alta Performance e Plataforma
-       └── Solver em Rust, EOS GERG-2008/BWRS/LKP, import Aspen .bkp,
+       └── Solver em Rust/C++, EOS GERG-2008/BWRS/LKP, import Aspen .bkp,
            SDK Python público, API keys para integração externa
 ```
 
@@ -472,7 +398,7 @@ Esse tipo de raciocínio — **reproduzir, isolar, entender a raiz e corrigir co
 
 **Visão de Longo Prazo**
 - 🏭 Gêmeos Digitais para plantas industriais reais
-- ⚡ Solver de alta performance em Rust
+- ⚡ Solver de alta performance em Rust/C++
 - 🧠 PINN — Redes Neurais com Física Incorporada
 - 🌍 Ecossistema open-source de simulação industrial
 - 🔭 Desenvolvimento de simuladores similares em outros domínios
