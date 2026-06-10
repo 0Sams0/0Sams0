@@ -381,7 +381,7 @@ Trabalha com simulação de processos, computação científica, algoritmos num�
 
 </div>
 
-## Contribuições 🐍
+## Contribuições (Públicas) 🐍
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
